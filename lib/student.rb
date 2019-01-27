@@ -55,6 +55,7 @@ class Student
     DB[:conn].execute(sql).map do |row|
       self.new_from_db(row)
     end
+<<<<<<< HEAD
   end
   
   def self.first_X_students_in_grade_10 (input)
@@ -89,7 +90,14 @@ class Student
     SQL
     
     DB[:conn].execute(sql, input)
+=======
+>>>>>>> 41039f9a5881fd81661885d1051924bd47fa3894
   end
+  
+  def 
+  
+  
+  
   
   def save
     sql = <<-SQL
